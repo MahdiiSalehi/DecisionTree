@@ -1,0 +1,538 @@
+
+  HighBP___________________
+ /                         \
+0                 ________Smoker
+                 /              \
+           PhysActivity          2
+          /            \
+         0              2
+
+
+
+
+  HighBP____
+ /          \
+0          Fruits___________________
+          /                         \
+         2                 ________Smoker
+                          /              \
+                    PhysActivity          2
+                   /            \
+                  0              2
+
+
+
+
+      _____NoDocbcCost
+     /                \
+  HighBP               2
+ /      \
+0        0
+
+
+
+
+      _____NoDocbcCost
+     /                \
+  HighBP               2
+ /      \
+0        0
+
+
+
+
+         _______HighBP____
+        /                 \
+  NoDocbcCost            Fruits______
+ /           \          /            \
+0             2        2          Education___
+                                 /            \
+                                2             Sex
+                                             /   \
+                                            0     0
+
+
+
+
+      _____NoDocbcCost
+     /                \
+  HighBP               2
+ /      \
+0        0
+
+
+
+
+         _______HighBP____
+        /                 \
+  NoDocbcCost            Fruits______
+ /           \          /            \
+0             0        2          Education___
+                                 /            \
+                                2             Sex
+                                             /   \
+                                            0     0
+
+
+
+
+         _______HighBP____
+        /                 \
+  NoDocbcCost            Fruits______
+ /           \          /            \
+0             2        2          Education___
+                                 /            \
+                                2             Sex
+                                             /   \
+                                            0     0
+
+
+
+
+         _______HighBP____
+        /                 \
+  NoDocbcCost            Fruits______
+ /           \          /            \
+0             2        2          Education___
+                                 /            \
+                                2             Sex
+                                             /   \
+                                            0     0
+
+
+
+
+         _______HighBP____
+        /                 \
+  NoDocbcCost            Fruits______
+ /           \          /            \
+0             2        2          Education___
+                                 /            \
+                                2             Sex
+                                             /   \
+                                            0     0
+
+
+
+
+                                                      _____GenHlth_______________________________________
+                                                     /                                                   \
+       ___________________________________________HighBP                                          ______HighBP
+      /                                                 \                                        /            \
+  Income
+________________________________                0                             ______HighChol          0
+ /                                       \                                            /              \
+0                 _____________________HighChol                            ______CholCheck            0
+                 /                             \                          /               \
+            Education__________                 0                    Education             0
+           /                   \                                    /         \
+          0                ___Smoker                               1           0
+                          /         \
+                        Sex          0
+                       /   \
+                      0     0
+
+
+
+
+                                                                         _____GenHlth_______________________________________
+                                                                        /                                                   \
+                                                               ______HighBP                                          ______HighBP
+                                                              /            \                                        /            \
+       ___________________________________________________HighChol          0                             ______HighChol          0
+      /                                                           \                                      /              \
+  Income
+_______                                                   0                          ______CholCheck            0
+ /              \                                                                            /               \
+0           PhysActivity________                                                        Education             0
+           /                    \                                                      /         \
+          0                AnyHealthcare____                                          1           0
+                          /                 \
+                         0                 Fruits___
+                                          /         \
+                                         0          Sex
+                                                   /   \
+                                                  0     0
+
+
+
+
+                                                                                      _____GenHlth______________________________________________________________________
+                                                                                     /                                                                                  \
+                                                                            ______HighBP                                                                         ______HighBP
+                                                                           /            \                                                                       /            \
+       ________________________________________________________________HighChol          0                                                      ____________HighChol          0
+      /                                                                        \                                                               /                    \
+  Income
+______                                                                 0                          __________________________HeartDiseaseorAttack            0
+ /             \                                                                                          /                                              \
+0           Education___________________________________                                             Education__________                                  0
+           /                                            \                                           /                   \
+          2                                _____HeartDiseaseorAttack                               0             HvyAlcoholConsump
+                                          /                         \                                           /                 \
+                               ________Smoker                        0                                         0                   0
+                              /              \
+                        PhysActivity          0
+                       /            \
+                      0              0
+
+
+
+
+                                                                         _____GenHlth_______________________________________
+                                                                        /                                                   \
+                                                               ______HighBP                                          ______HighBP
+                                                              /            \                                        /            \
+       ___________________________________________________HighChol          0                             ______HighChol          0
+      /                                                           \                                      /              \
+  Income
+_______                                                   0                          ______CholCheck            0
+ /              \                                                                            /               \
+0           PhysActivity________                                                        Education             0
+           /                    \                                                      /         \
+          0                AnyHealthcare____                                          1           0
+                          /                 \
+                         0                 Fruits___
+                                          /         \
+                                         0          Sex
+                                                   /   \
+                                                  0     0
+
+
+
+
+                                                       _____GenHlth_______________________________________
+                                                      /                                                   \
+                                             ______HighBP                                          ______HighBP
+                                            /            \                                        /            \
+        ________________________________HighChol          0                             ______HighChol          0
+       /                                        \                                      /              \
+  Education_____                                 0                          ______CholCheck            0
+ /              \                                                          /               \
+0             Income
+_____                                            Education             0
+             /            \                                          /         \
+            0           Veggies___                                  1           0
+                       /          \
+                      0           Sex
+                                 /   \
+                                0     0
+
+
+
+
+                                                                _____GenHlth_______________________________________________
+                                                               /                                                           \
+                                                      ______HighBP                                                  ______HighBP
+                                                     /            \                                                /            \
+       __________________________________________HighChol          0                 __________________________HighChol          0
+      /                                                  \                          /                                  \
+  Income
+______                                           0                    Education__________                      0
+ /             \                                                              /                   \
+0           Education____________________                                    0             HvyAlcoholConsump
+           /                             \                                                /                 \
+          2                  ___________Smoker                                           0                   0
+                            /                 \
+                        Veggies___             0
+                       /          \
+                      0           Sex
+                                 /   \
+                                0     0
+
+
+
+
+                                                                      _____GenHlth_______________________________________
+                                                                     /                                                   \
+                                                            ______HighBP                                          ______HighBP
+                                                           /            \                                        /            \
+       ________________________________________________HighChol          0                             ______HighChol          0
+      /                                                        \                                      /              \
+  Income
+______                                                 0                          ______CholCheck            0
+ /             \                                                                          /               \
+0           Education________                                                        Education             0
+           /                 \                                                      /         \
+          2             AnyHealthcare____________                                  1           0
+                       /                         \
+                      0                     _____Sex
+                                           /        \
+                                        Smoker       0
+                                       /      \
+                                      0        0
+
+
+
+
+                                                 ______GenHlth_____________________________________________________________________
+                                                /                                                                                  \
+                                       _____HighChol                                                                        _____HighChol
+                                      /             \                                                                      /             \
+       ____________________________Smoker            0                 _________________________________________________HighBP            0
+      /                                  \                            /                                                       \
+  Income
+________________                 0                      Education___________________________________                  0
+ /                       \                                      /                                            \
+0               _____NoDocbcCost                               1                 ________________________PhysActivity
+               /                \                                               /                                    \
+            HighBP               0                                           Smoker______________                     0
+           /      \                                                         /                    \
+          0        0                                                       0               _____Stroke
+                                                                                          /           \
+                                                                                      Income
+          2
+                                                                                     /       \
+                                                                                    0         0
+
+
+
+
+                                               ______GenHlth___________________________________
+                                              /                                                \
+       ___________________________________HighChol                                      ______HighBP
+      /                                           \                                    /            \
+  Income
+_________________________                 0                     __________HighChol          0
+ /                                \                                     /                  \
+0                           _____Smoker                        HvyAlcoholConsump            0
+                           /           \                      /                 \
+                  ______HighBP          0                    0                   0
+                 /            \
+            Education          0
+           /         \
+          0           0
+
+
+
+
+                                                                         _____HighBP____________________________________________________
+                                                                        /                                                               \
+                                                              ______GenHlth                 __________________________________________GenHlth
+                                                             /             \               /                                                 \
+                                                   ______HighChol           0          Income
+_______________________________                 0
+                                                  /              \                    /                                      \
+       _______________________________________DiffWalk            0                  0                               ______HighChol
+      /                                               \                                                             /              \
+  Income
+________                                      0                                                     ___DiffWalk            0
+ /               \                                                                                          /           \
+0           AnyHealthcare_______________                                                             _____Sex            0
+           /                            \                                                           /        \
+          0                       ______Sex                                                      Smoker       0
+                                 /         \                                                    /      \
+                            Education       0                                                  0        0
+                           /         \
+                          0           0
+
+
+
+
+                                                                      _____GenHlth_______________________________________
+                                                                     /                                                   \
+                                                            ______HighBP                   _____________________________HighBP
+                                                           /            \                 /                                   \
+       ________________________________________________HighChol          0           Education_________________                0
+      /                                                        \                    /                          \
+  Income
+______                                                 0                  0                   ______HighChol
+ /             \                                                                                      /              \
+0           Education________                                                                    CholCheck            0
+           /                 \                                                                  /         \
+          2             AnyHealthcare____________                                              0           0
+                       /                         \
+                      0                     _____Sex
+                                           /        \
+                                        Smoker       0
+                                       /      \
+                                      0        0
+
+
+
+
+                                                                         _____GenHlth_______________________________________
+                                                                        /                                                   \
+                                                               ______HighBP                                          ______HighBP
+                                                              /            \                                        /            \
+       ___________________________________________________HighChol          0                             ______HighChol          0
+      /                                                           \                                      /              \
+  Income
+_______                                                   0                          ______CholCheck            0
+ /              \                                                                            /               \
+0           PhysActivity________                                                        Education             0
+           /                    \                                                      /         \
+          0                AnyHealthcare____                                          1           0
+                          /                 \
+                         0                 Fruits___
+                                          /         \
+                                         0          Sex
+                                                   /   \
+                                                  0     0
+
+
+
+
+                                                                     _____GenHlth____________________________________________________________________
+                                                                    /                                                                                \
+                                                           ______HighBP                                                                       ______HighBP
+                                                          /            \                                                                     /            \
+                                                ______DiffWalk          0                                                           _____HighChol          0
+                                               /              \                                                                    /             \
+       ____________________________________HighChol            0                                                          ______Smoker            0
+      /                                            \                                                                     /            \
+  Income
+________                                   0                                      __________________________DiffWalk          0
+ /               \                                                                        /                                  \
+0           AnyHealthcare__________                                                 PhysActivity_______________               0
+           /                       \                                               /                           \
+          0                    ___Smoker                                          0                      ______Sex
+                              /         \                                                               /         \
+                            Sex          0                                                         Education       0
+                           /   \                                                                  /         \
+                          0     0                                                                0           0
+
+
+
+
+                                                        ______GenHlth___________________________________
+                                                       /                                                \
+                                              _____HighChol                                      ______HighBP
+                                             /             \                                    /            \
+         _________________________________HighBP            0                     __________HighChol          0
+        /                                       \                                /                  \
+  PhysActivity_____                              0                      HvyAlcoholConsump            0
+ /                 \                                                   /                 \
+0                Income
+____                                          0                   0
+                /           \
+               0           Fruits___
+                          /         \
+                         0          Sex
+                                   /   \
+                                  0     0
+
+
+
+
+                                             _____GenHlth_______________________________________
+                                            /                                                   \
+                                   ______HighBP                                          ______HighBP
+                                  /            \                                        /            \
+       _______________________HighChol          0                             ______HighChol          0
+      /                               \                                      /              \
+  Income
+______                        0                          ______CholCheck            0
+ /             \                                                 /               \
+0           Education___                                    Education             0
+           /            \                                  /         \
+          2             Sex                               1           0
+                       /   \
+                      0     0
+
+
+
+
+                                                                                 _____GenHlth_______________________________________
+                                                                                /                                                   \
+                                                                       ______HighBP                                          ______HighBP
+                                                                      /            \                                        /            \
+                                                            ______DiffWalk          0                             ______HighChol          0
+                                                           /              \                                      /              \
+       ________________________________________________HighChol            0                          ______CholCheck            0
+      /                                                        \                                     /               \
+  Income
+______                                                 0                               Education             0
+ /             \                                                                               /         \
+0           Education________                                                                 1           0
+           /                 \
+          2             AnyHealthcare__________
+                       /                       \
+                      0                    ___Smoker
+                                          /         \
+                                        Sex          0
+                                       /   \
+                                      0     0
+
+
+
+
+                                                                         _____GenHlth_______________________________________
+                                                                        /                                                   \
+                                                               ______HighBP                                          ______HighBP
+                                                              /            \                                        /            \
+       ___________________________________________________HighChol          0                             ______HighChol          0
+      /                                                           \                                      /              \
+  Income
+_______                                                   0                          ______CholCheck            0
+ /              \                                                                            /               \
+0           PhysActivity________                                                        Education             0
+           /                    \                                                      /         \
+          0                AnyHealthcare____                                          1           0
+                          /                 \
+                         0                 Fruits___
+                                          /         \
+                                         0          Sex
+                                                   /   \
+                                                  0     0
+
+
+
+
+                                                                      _____GenHlth_______________________________________
+                                                                     /                                                   \
+                                                            ______HighBP                                          ______HighBP
+                                                           /            \                                        /            \
+       ________________________________________________HighChol          0                             ______HighChol          0
+      /                                                        \                                      /              \
+  Income
+______                                                 0                          ______CholCheck            0
+ /             \                                                                          /               \
+0           Education________                                                        Education             0
+           /                 \                                                      /         \
+          2             AnyHealthcare____________                                  1           0
+                       /                         \
+                      0                     _____Sex
+                                           /        \
+                                        Smoker       0
+                                       /      \
+                                      0        0
+
+
+
+
+         __________________HighBP_____________________________
+        /                                                     \
+  PhysActivity_____                        _________________GenHlth
+ /                 \                      /                        \
+0                Income
+            PhysActivity____                0
+                /       \          /                \
+               0         0        0                Smoker
+                                                  /      \
+                                                 0        0
+
+
+
+
+                                                                               _____GenHlth_______________________________________________
+                                                                              /                                                           \
+                                                                     ______HighBP                                                  ______HighBP
+                                                                    /            \                                                /            \
+       _________________________________________________________HighChol          0                 __________________________HighChol          0
+      /                                                                 \                          /                                  \
+  Income
+_______                                                         0                    Education__________                      0
+ /              \                                                                            /                   \
+0           PhysActivity________                                                            0             HvyAlcoholConsump
+           /                    \                                                                        /                 \
+          0                AnyHealthcare_______________                                                 0                   0
+                          /                            \
+                         0                     _____Education
+                                              /              \
+                                           Fruits             0
+                                          /      \
+                                         0        0
+
+
+
